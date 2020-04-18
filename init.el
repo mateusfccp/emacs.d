@@ -9,6 +9,10 @@
 ;;; Packages
 (load "~/.emacs.d/init/packaging.el")
 
+;; Fix PATH env
+(when (memq window-system '(mac ns x))
+  (exec-path-from-shell-initialize))
+
 ;;; All-the-icons
 (load "~/.emacs.d/init/all-the-icons.el")
 
@@ -33,6 +37,9 @@
 ;;; Autocompletion
 (load "~/.emacs.d/init/autocompletion.el")
 
+;;; Language Server Protocol
+(load "~/.emacs.d/init/lsp.el")
+
 
 ;;;; Language-Specific Settings
 
@@ -47,6 +54,9 @@
 
 ;;; Python
 (load "~/.emacs.d/init/python.el")
+
+;;; Rust
+(load "~/.emacs.d/init/rust.el")
 
 ;;; Typescript
 (load "~/.emacs.d/init/typescript.el")

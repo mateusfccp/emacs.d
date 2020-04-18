@@ -1,2 +1,2 @@
 
-(all-the-icons all-the-icons-dired auctex company dashboard dracula-theme elpy flycheck magit markdown-mode ng2-mode projectile slime tide typescript-mode use-package visual-regexp-steroids web-mode yaml-mode)
+(all-the-icons all-the-icons-dired auctex company company-lsp dart-mode dart-server dashboard dracula-theme elpy exec-path-from-shell flutter flutter-l10n-flycheck flycheck flycheck-rust haskell-mode lsp-haskell lsp-mode lsp-treemacs lsp-ui magit markdown-mode ng2-mode projectile rust-mode slime tide toml-mode typescript-mode use-package use-package-ensure-system-package visual-regexp-steroids web-mode yaml-mode)

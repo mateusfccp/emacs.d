@@ -15,7 +15,7 @@
 
 ;; Font
 (set-face-attribute 'default nil :height 75)
-(set-face-attribute 'default nil :font "Fira Code")
+(set-face-attribute 'default nil :font "JetBrains Mono")
 
 ;; Disable sounds
 (setq visible-bell 1)
